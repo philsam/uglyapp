@@ -4,7 +4,6 @@ import fetch from 'cross-fetch';
 export const SPACEX_API_URL = "https://api.spacex.land/graphql/";
 
 export const client = new ApolloClient({
-    uri: SPACEX_API_URL,
-    link: new HttpLink({ uri: "https://api.spacex.land/graphql/", fetch }),
+    link: new HttpLink({ uri: SPACEX_API_URL, fetch }),
     cache: new InMemoryCache()
 });
