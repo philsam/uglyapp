@@ -25,7 +25,7 @@ const DisplayLaunchContent = (props: DisplayProps) => {
                 <Text>Mission ID: {details?.mission_id}</Text>
                 <Text>Mission Name: {details?.mission_name}</Text>
                 <Text>Rocket Name: {details?.rocket?.rocket_name}</Text>
-                <Text>Rocket Mass: {details?.rocket?.rocket?.mass?.lb}</Text>
+                <Text>Rocket Mass: {details?.rocket?.rocket?.mass?.lb} lb</Text>
                 <Text>Rocket Company: {details?.rocket?.rocket?.company}</Text>
                 <Text>Launch Site Name: {details?.launch_site?.site_name}</Text>
                 <Text>Launch Date: {userTimezone}</Text>
